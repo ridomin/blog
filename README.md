@@ -1,9 +1,7 @@
 # gatsby-starter-blog
-Gatsby starter for creating a blog
+Rido Blog
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+Based on gatsby
 
 ## Running in development
 `gatsby develop`
