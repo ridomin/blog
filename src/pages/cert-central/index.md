@@ -15,6 +15,8 @@ Recently I shared the project on Twitter and got a lot of feedback:
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">You could build a code signing model that is but that’s not the way things were done in the 90s and early 2ks when the MSFT created their model.</p>&mdash; Ryan Hurst (@rmhrisk) <a href="https://twitter.com/rmhrisk/status/1104256998818799616?ref_src=twsrc%5Etfw">March 9, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
