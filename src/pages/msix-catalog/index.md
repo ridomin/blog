@@ -18,13 +18,11 @@ of a small utility to query the catalog of applications installed with MSIX/APPX
 
 The MSIX catalog is available in the Windows.Management.PackageManager api. This api allows to load
 all the packages installed to the current user, each package can be categorized based on the
-kind of signature used, and can be: Store, Developer, Enterprise or None.
+kind of signature used, such as Store, Developer, Enterprise or None.
 
 ### Windows 10 Contract as NuGet packages
 
 The Windows 10 apis are available with the Windows 10 SDK as contracts in the `winmd` format.
-These contracts have a dependency with the runtime interop assemblies. 
-
 
 ## WPF for .NET Framework and .NET Core 3 
 

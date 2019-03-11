@@ -1,6 +1,6 @@
 ---
 title: The making of
-date: "2019-03-03T23:46:37.121Z"
+date: "2019-02-03T23:46:37.121Z"
 ---
 
 I love static site generators, after trying Jekyll I was looking for something
