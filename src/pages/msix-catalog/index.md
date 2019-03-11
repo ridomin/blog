@@ -3,13 +3,14 @@ title: MSIX Catalog
 date: "2019-03-04T22:40:32.169Z"
 ---
 
+### [https://github.com/ridomin/msix-catalog](https://github.com/ridomin/msix-catalog)
+
 I've started a desktop application to explore different **modernization** characteristics
 of a Windows Desktop application such as Windows 10 api usage, port WPF to .NET Core 3, compare
 different deployment methods and use best DevOps practices.
 
 I could create a dummy app to explore these topics, but rather I'd became with the idea
 of a small utility to query the catalog of applications installed with MSIX/APPX.
-
 
 
 ## Explore Windows MSIX management APIs
