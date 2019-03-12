@@ -67,6 +67,7 @@ class Template extends React.Component {
       >
         {header}
         {children()}
+        <footer><a href="https://blog.rido.dev">this site</a>|<a href="https://rido.dev">rido.dev</a></footer>
       </div>
     )
   }
