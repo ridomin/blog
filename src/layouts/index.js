@@ -73,25 +73,7 @@ class Template extends React.Component {
             fontSize: 'small'
           }}
         >
-        <Link style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-            >
-            this blog
-          </Link>
-          |
-          <Link style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'https://rido.dev'}
-            >
-             https://rido.dev
-          </Link>
+        <a href="https://rido.dev">https://rido.dev</a>
         </footer>
       </div>
     )
