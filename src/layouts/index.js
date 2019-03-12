@@ -67,7 +67,32 @@ class Template extends React.Component {
       >
         {header}
         {children()}
-        <footer><a href="https://blog.rido.dev">this site</a>|<a href="https://rido.dev">rido.dev</a></footer>
+        <footer
+          style={{
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            fontSize: small
+          }}
+        >
+        <Link style={{
+              boxShadow: 'none',
+              textDecoration: 'none',
+              color: 'inherit',
+            }}
+            to={'/'}
+            >
+            this blog
+          </Link>
+          |
+          <Link style={{
+              boxShadow: 'none',
+              textDecoration: 'none',
+              color: 'inherit',
+            }}
+            to={'https://rido.dev'}
+            >
+             https://rido.dev
+          </Link>
+        </footer>
       </div>
     )
   }
