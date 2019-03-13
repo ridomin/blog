@@ -67,12 +67,7 @@ class Template extends React.Component {
       >
         {header}
         {children()}
-        <footer
-          style={{
-            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-            fontSize: 'small'
-          }}
-        >
+        <footer>
         <a href="https://rido.dev">https://rido.dev</a>
         </footer>
       </div>
