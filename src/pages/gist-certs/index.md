@@ -3,9 +3,9 @@ title: The Cert Central Protocol
 date: "2019-03-14"
 ---
 
-I was discussing this morning with a colleague about storing the [Cert Central](https://certcentral.x509.online) certificates as gists, e.g.:[RidoTheDev.cer](https://gist.githubusercontent.com/ridomin/85ffb2f933c68683b87bbfb27ca114cf/raw/77ac9ac02dc553e4c7810c7ddb1cfa4c0ba6e6db/RidoTheDev.cer)
+I was discussing this morning with a colleague about storing the [Cert Central](https://certcentral.x509.online) certificates as gists, 
 
-And also saw this tweet 
+The same evening I saw this tweet 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">📍 Today we’re shipping the ability to pin gists to your GitHub profile. We’re excited about the potential of gists — watch this space! ✨ <a href="https://t.co/Lu9n6tovzN">pic.twitter.com/Lu9n6tovzN</a></p>&mdash; Nat Friedman (@natfriedman) <a href="https://twitter.com/natfriedman/status/1105866817564631040?ref_src=twsrc%5Etfw">March 13, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -33,7 +33,11 @@ p6vUSuIYhoQshVZM
 -----END CERTIFICATE-----
 ```
 
+[RidoTheDev.cer](https://gist.githubusercontent.com/ridomin/85ffb2f933c68683b87bbfb27ca114cf/raw/77ac9ac02dc553e4c7810c7ddb1cfa4c0ba6e6db/RidoTheDev.cer)
+
 ## Would you trust this public key?
+
+Of course not !!. 
 
 As a gist owner I can add any public key to my account and there are no proofs that 
 the GitHub account has access to the private key.
@@ -67,5 +71,3 @@ ccc trust -u ridomin -t 728511CC02E6A80B45ABC0CC862FEF1BFD9617D7
 Although CertCentral could use the Gist storage system, users could always modify the gist contents. To store the public keys in GitHub the server must expose a protocol to verify the user has access to the private key.
 
 Having the storage system closed for anonymous access is a price to pay to avoid malicious modifications, here is where a block chain could help to mantain a read-only database of developer certificates, but it will also require a number of organizations to mantain a reasonable consensus.
-
-
