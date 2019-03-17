@@ -8,6 +8,15 @@ module.exports = {
   pathPrefix: '/',
   plugins: [
     {
+        resolve: `gatsby-plugin-google-analytics`,
+	options: {
+          trackingId: "UA-66818411-6",
+          head: false,
+          anonymize: true,
+	  cookieDomain: "blog.rido.dev"
+	},
+    }, 
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
