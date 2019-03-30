@@ -3,7 +3,7 @@ title: The Cert Central Protocol
 date: "2019-03-14"
 ---
 
-One of the key parts of Cert Central is the push command. The purpose of this command is to enable developers to publish their public keys associated to their account. 
+One of the key parts of Cert Central is the push command. The purpose of this command is to enable developers to publish their public keys associated to their account.
 
 Anyone could submit any public key, however CertCentral extracts the public key after verifying a digital signature from a `SignedCMS` object.
 
