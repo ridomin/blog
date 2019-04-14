@@ -33,6 +33,4 @@ ccc trust -u ridomin -t 728511CC02E6A80B45ABC0CC862FEF1BFD9617D7
 
 ## Summary
 
-Although CertCentral could use the Gist storage system, users could always modify the gist contents. To store the public keys in GitHub the server must expose a protocol to verify the user has access to the private key.
-
-Having the storage system closed for anonymous access is a price to pay to avoid malicious modifications, here is where a block chain could help to mantain a read-only database of developer certificates, but it will also require a number of organizations to mantain a reasonable consensus.
+CertCentral only stores public keys when there is a valid signature to guarantee private key ownership. 
