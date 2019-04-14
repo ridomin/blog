@@ -26,8 +26,8 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Rido</strong>, a spanish developer working in Visual Studio and .NET from Redmond.
-          <a href="https://twitter.com/ridomin">I rarely tweet</a>
+          Written by <strong>Rido</strong>, a PM working in Visual Studio and .NET from Redmond.
+          <a href="https://twitter.com/ridomin"> I rarely tweet</a>
         </p>
       </div>
     )
