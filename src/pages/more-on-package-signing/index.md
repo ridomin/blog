@@ -9,14 +9,14 @@ I was tempted to reply on the comments of that blog post, but it was a long repl
 
 First, I love the fact that some respected developer as Phill Haack is looking into this problem. And I agree with the overall sentiment, however there are two facts I'd like to highlight: 
 
-- KeyBase does not allow X.509 key registration (only GPG based keys)
-- NuGet does not allow signing with PGP (and I feel responsible of this decission)
+- KeyBase does not allow to register X.509 keys, only GPG based keys.
+- NuGet does not allow signing with GPG, only X.509 signatures. (And I feel responsible for this)
 
 This means, that the next sentence:
 
 >I can imagine a world where package managers leverage Keybase to provide more secure options for establishing identity
 
-It's no so easy to implement, we would need to bring PGP to .NET, or make KeyBase accept X.509.
+It's no so easy to implement, we would need to bring GPG to .NET, or make KeyBase accept X.509.
 
 Also, I think the next statement is not relevant on this space:
 
