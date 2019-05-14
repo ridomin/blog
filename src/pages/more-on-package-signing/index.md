@@ -3,7 +3,7 @@ title: More on package signing
 date: "2019-05-10T21:08:02"
 ---
 
-I was reading [Package Author Identity through Social Proofs](https://haacked.com/archive/2019/05/10/friend-signing-packgages/) and I was so happy to see that is not only me who wants to improve package managers without the dependency to public CAs.
+I was reading [Package Author Identity through Social Proofs](https://haacked.com/archive/2019/05/10/friend-signing-packgages/) and I was so happy to see that is not only me who wants to improve package managers security and trust without dependencies to public CAs.
 
 I was tempted to reply on the comments of that blog post, but it was a long reply. Instead I'm writing this post..
 
