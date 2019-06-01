@@ -62,6 +62,30 @@ I personally found not very usefull to see the "Welcome page" with links to some
 
 - Configure and compile device code. First step is to configure the serial port, I would expect this task once the code is ready to be deployed/debugged. 
 
+After configured the Hub Connection String and deploy the application to the MXChip, I was able to see the messages in the serial port, however I did not found any activity on the portal:
+
+```
+2019-06-01 00:55:19 INFO:  >>>IoTHubClient_LL_SendEventAsync accepted message for transmission to IoT Hub.
+2019-06-01 00:55:19 INFO:  >>>Confirmation[5] received for message tracking id = 5 with result = IOTHUB_CLIENT_CONFIRMATION_OK
+2019-06-01 00:55:21 INFO:  >>>IoTHubClient_LL_SendEventAsync accepted message for transmission to IoT Hub.
+2019-06-01 00:55:21 INFO:  >>>Confirmation[6] received for message tracking id = 6 with result = IOTHUB_CLIENT_CONFIRMATION_OK
+```
+
+#### Test the project
+
+- Configure Connection Sting. Why I need to configure the connection string again? 
+
+> Typo, when showing the connection string, the key is highlighted, but then it reuires the full connection string
+
+> Typo, there is no option: *Start Monitoring D2C Message* instead it's named as *Start monitoring Built-in Event endpoint*.
+
+## Other Issues
+
+There is an issue with VS Code showing false problems for the C code, eg:
+- for `delay(2000);` shows the line as a problem with squiggles with error: `expression preceding parentheses of apparent call must have (pointer-to-) function type`.
+- when navigating the code I've seen errors like: `argument of type \"__va_list_tag *\" is incompatible with parameter of type \"char *\""`
+
+
 
 
 
