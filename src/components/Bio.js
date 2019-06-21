@@ -26,7 +26,7 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Rido</strong>, a PM working in Visual Studio and .NET from Redmond.
+          Written by <strong>Rido</strong>, a PM working in Azure and IoT from Redmond.
           <a href="https://twitter.com/ridomin"> I rarely tweet</a>
         </p>
       </div>
