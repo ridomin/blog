@@ -1,0 +1,1 @@
+docker run -it -v %CD%:/home/app gatsbyjs/gatsby-dev-builds:latest /bin/sh
