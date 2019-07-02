@@ -13,9 +13,9 @@ To learn about this concept I've been pointed to this new brand tutorial:
 
 ## Benefits are not clearly exposed
 
-I completed the tutorial - it took 6 hours aprox - with success, but after all the pieces where built and deployed I missed a final demo to explore all the potential benefits of having the intelligent edge processing my AI models.
+I completed the tutorial - it took 6 hours approx - with success, but after all the pieces where built and deployed I missed a final demo to explore all the potential benefits of having the intelligent edge processing my AI models.
 
-> Finalize the tutorial with a demo to hightlight the benefits and potential of having AI models processed at the edge.
+> Finalize the tutorial with a demo to highlight the benefits and potential of having AI models processed at the edge.
 
 ## Too much detail to produce the AI model
 
@@ -25,4 +25,19 @@ I spent most of the time in the tutorial in the Azure Notebooks to run the pytho
 
 ## Azure Notebook repeatability
 
-I did not complete the full tutorial on a single day.
+I did not complete the full tutorial on a single day, when I got back the next day the Notebook was not in a good state. I tried to resume my work from where I stopped the day before but I got some issues, eg. the scripts are not prepared and failed if the AzureML instance already exists, once removed I could create the AzureML instance but the associated resources such as Storage and KeyVault were created again. Even with the new instances I could not *re-start* the tutorial because random errors processing the input streams.
+
+> There should instructions to enable *re-start* the AzureML notebooks at well-known locations.
+
+## Other minor issues (and typos)
+
+I was able to complete the tutorial but found some minor issues that might require updates to the content and/or the demo scripts.
+
+### Default VS code terminal
+
+When trying to *Build & Push IoT Edge Solution* I hit this same issue [#351](https://github.com/microsoft/vscode-azure-iot-edge/issues/351), despite the fact that I had followed the instructions to change the default @Code terminal.
+
+### AzureML not installed by default on Azure Notebooks
+
+https://github.com/Azure-Samples/IoTEdgeAndMlSample/pull/44
+
