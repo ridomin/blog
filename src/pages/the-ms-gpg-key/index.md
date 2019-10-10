@@ -3,7 +3,7 @@ title: The Microsoft GPG Key
 date: "2019-10-09-T20:38:00"
 ---
 
-When you try to install Microsoft packages on Linux (some examples are VSCode, SQLServer, DotNet or the Moby engine for IoTEdge) you must the microsoft GPG key to your system.
+When you try to install Microsoft packages on Linux (some examples are VSCode, SQLServer, DotNet or the Moby engine for IoTEdge) you must trust the microsoft GPG key to your system before installing.
 
 The GPG key is obtained from a known URL:
 
