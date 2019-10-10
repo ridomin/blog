@@ -28,3 +28,7 @@ W: GPG error: https://packages.microsoft.com/ubuntu/18.04/multiarch/prod bionic 
 E: The repository 'https://packages.microsoft.com/ubuntu/18.04/multiarch/prod bionic InRelease' is not signed.
 N: Updating from such a repository can't be done securely, and is therefore disabled by default.
 ```
+
+If the world (I mean the cloud) runs on Linux, and Linux packages are signed with GPG keys that must be explicitely trusted... why we don't use X509 certificates as GPG keys to sign MSIX/NuGet packages? 
+Long live to [X509Online](https://bit.ly/x509online).
+
