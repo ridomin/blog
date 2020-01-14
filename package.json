@@ -1,10 +1,10 @@
 {
-  "name": "blog",
-  "description": "Rido Blog",
+  "name": "gatsby-starter-blog",
+  "description": "Starter Gatsby Blog",
   "version": "1.0.0",
-  "author": "Rido <ridomin@live.com>",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ridomin/blog/issues"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
   },
   "dependencies": {
     "gatsby": "^1.9.250",
@@ -42,7 +42,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ridomin/blog.git"
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
