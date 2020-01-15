@@ -1,15 +1,6 @@
-# gatsby-starter-blog
-Rido Blog
+# Rido Blog
 
-Based on gatsby
+This is the Rido Blog based on gatsby, deployed with Netlify
 
-## Running in development
-`gatsby develop`
-
-
-## Deploying to Netlify
-You can instantly clone this project and set it up as a new site on [Netlify](https://www.netlify.com) for automated deployments from git, by clicking this button:
-
-<!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/09b527db-2d31-499d-a82f-5878abf6b2bc/deploy-status)](https://app.netlify.com/sites/elastic-wiles-503d42/deploys)
 
